@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class task1 {
     
     static int input (String msg){
-        // Чтение переменной в консоле
+        // Чтение int в консоле
         Scanner iScanner = new Scanner(System.in);
         System.out.printf(msg);
         int number = iScanner.nextInt();
